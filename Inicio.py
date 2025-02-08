@@ -10,7 +10,7 @@ warnings.simplefilter("ignore")
 
 
 # Configuración de Streamlit
-st.set_page_config(page_title="Analisis Activos Financieros", page_icon="img/stock.png", layout="wide")
+st.set_page_config(page_title="Portfolio Management", page_icon="img/stock.png", layout="wide")
 
 theme_plotly = None
 
