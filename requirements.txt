@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy 
+yfinance
+streamlit_multi_menu 
+plotly 
+sklearn.metrics
+statsmodels.api 
+matplotlib.pyplot
+itertools
+base64

@@ -1,0 +1,208 @@
+/* botones animados para pagina de inicio */
+/* Animated button with pulse effect */
+.st-key-inicio button {
+    background-color: #1e45c9;
+    border-radius: 10px;
+    padding: 20px 60px;
+    animation: pulse 2s infinite;
+    color:rgb(172, 202, 2)
+}
+
+.st-key-inicio button p {
+    font-size: 25px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+/* Hover effect for the button */
+.st-key-inicio button:hover {
+    background-color: #06318f; /* Darker green */
+    border: none;
+}
+
+.st-key-inicio button:hover p {
+    color: #06a306; /* Gold color */
+}
+
+/* Override the focus states to prevent default red border */
+.st-key-inicio button:focus {
+    background-color: #063c8d; /* Keep the same as hover */
+    border: none;
+}
+
+/* Apply the same text color during focus states */
+.st-key-inicio button:focus p {
+    color: #9dff00;
+}
+
+
+@keyframes inicio {
+    0% {
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 20px rgba(76, 175, 80, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+    }
+}
+
+.st-key-iniciodos button {
+    background-color: #1e45c9;
+    border-radius: 10px;
+    padding: 15px 15px;
+    animation: pulse 2s infinite;
+    color:rgb(172, 202, 2)
+}
+
+.st-key-iniciodos button p {
+    font-size: 25px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+/* Hover effect for the button */
+.st-key-iniciodos button:hover {
+    background-color: #06318f; /* Darker green */
+    border: none;
+}
+
+.st-key-iniciodos button:hover p {
+    color: #06a306; /* Gold color */
+}
+
+/* Override the focus states to prevent default red border */
+.st-key-iniciodos button:focus {
+    background-color: #063c8d; /* Keep the same as hover */
+    border: none;
+}
+
+/* Apply the same text color during focus states */
+.st-key-iniciodos button:focus p {
+    color: #9dff00;
+}
+
+
+@keyframes iniciodos {
+    0% {
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 20px rgba(76, 175, 80, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+    }
+}
+
+
+
+
+
+.st-key-glow-on-reg {
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.st-key-glow-on-reg:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.st-key-glow-on-reg:active {
+    color: #000
+}
+
+.st-key-glow-on-reg:active:after {
+    background: transparent;
+}
+
+.st-key-glow-on-reg:hover:before {
+    opacity: 1;
+}
+
+.st-key-glow-on-reg:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/* animacion de botones para la generacion del grafico  */
+/* Animated button with pulse effect */
+
+.st-key-grafico button {
+    background-color: #1e45c9;
+    border-radius: 10px;
+    padding: 20px 60px;
+    animation: pulse 2s infinite;
+    color:rgb(172, 202, 2)
+}
+
+.st-key-grafico button p {
+    font-size: 25px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+/* Hover effect for the button */
+.st-key-grafico button:hover {
+    background-color: #06318f; /* Darker green */
+    border: none;
+}
+
+.st-key-grafico button:hover p {
+    color: #06a306; /* Gold color */
+}
+
+/* Override the focus states to prevent default red border */
+.st-key-grafico button:focus {
+    background-color: #063c8d; /* Keep the same as hover */
+    border: none;
+}
+
+/* Apply the same text color during focus states */
+.st-key-grafico button:focus p {
+    color: #9dff00;
+}
+
+@keyframes grafico {
+    0% {
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 20px rgba(76, 175, 80, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+    }
+}
