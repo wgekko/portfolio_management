@@ -323,7 +323,7 @@ if st.container(border=True):
 
 
 # Título principal
-st.button("Análisis de Activos Financieros" , key="inicio", use_container_width=True)
+st.button("Portfolio Management" , key="inicio", use_container_width=True)
 #st.write('###')
 # Parámetros de la barra lateral
 
@@ -332,8 +332,8 @@ with st.container():
     st.write('###')
     left, right = st.columns(2, gap='small', vertical_alignment="center")
     with left:
-        st.button("Análisis de Activos Financieros ", key="iniciodos")
-        st.subheader("Se despliegan Herramientas/Modelos de Machine Learning, opteniendo métricas optimas para la toma de decisiones")
+        st.button("Adminstración de Carteras de Inversión ", key="iniciodos")
+        st.subheader("Se despliegan Herramientas/Modelos estadisticos, opteniendo métricas optimas para la toma de decisiones")
     with right:
                #"""### image from local file"""
         file_ = open("img/report.png", "rb")
