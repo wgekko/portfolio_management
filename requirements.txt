@@ -4,7 +4,7 @@ numpy
 yfinance
 streamlit_multi_menu 
 plotly 
-sklearn.metrics
+sklearn
 statsmodels.api 
 matplotlib.pyplot
 itertools
