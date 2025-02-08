@@ -323,7 +323,7 @@ if st.container(border=True):
 
 
 # Título principal
-st.button("Portfolio Management" , key="inicio", use_container_width=True)
+st.button("Portfolio Management-Métricas de ETFS" , key="inicio", use_container_width=True)
 #st.write('###')
 # Parámetros de la barra lateral
 
