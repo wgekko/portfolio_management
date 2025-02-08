@@ -6,5 +6,4 @@ streamlit_multi_menu
 plotly 
 statsmodels
 matplotlib
-itertools
 base64
