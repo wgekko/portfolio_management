@@ -6,7 +6,7 @@ import streamlit.components.v1 as components
 import matplotlib.pyplot as plt
 import yfinance as yf
 import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 import numpy as np
 import statsmodels.api as sm
 import warnings
