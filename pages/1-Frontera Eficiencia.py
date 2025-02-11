@@ -5,7 +5,7 @@ import pandas as pd
 import yfinance as yf
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 import scipy.optimize as sco
 from scipy import stats
 import base64
