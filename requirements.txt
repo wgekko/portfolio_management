@@ -4,6 +4,7 @@ numpy
 yfinance
 streamlit_multi_menu 
 plotly 
+seaborn
 statsmodels
 matplotlib
 
